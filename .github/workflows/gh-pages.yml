@@ -1,0 +1,13 @@
+# This workflow has been disabled to simplify the deployment process
+# The deployment is now handled by the npm scripts in package.json
+name: Disabled GitHub Pages Workflow
+on:
+  # This workflow is disabled by not specifying any triggers
+  workflow_dispatch:
+jobs:
+  # No jobs defined
+  disabled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Workflow disabled
+        run: echo "This workflow has been disabled"
