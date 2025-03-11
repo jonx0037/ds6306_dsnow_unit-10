@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=dsnow-app/build/index.html">
     <title>DSNOW Presentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="dsnow-app/build/index.html">link to the DSNOW Presentation</a>.</p>
+    <div class="container">
+        <h1>DSNOW Presentation</h1>
+        <p>Welcome to the DSNOW Presentation for Data Science and Regression Analysis.</p>
+        <p>This is a React application showcasing data science concepts and regression analysis techniques.</p>
+        <a href="https://jonx0037.github.io/ds6306_dsnow_unit-10/" class="button">Launch React App</a>
+    </div>
 </body>
 </html>
